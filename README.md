@@ -11,3 +11,8 @@
 * The euclidean distance (or any metric) between two dissimilar images should be maximum 
 
 
+<p align="center">
+  <img src="/imgs/1.PNG" alt="" width="700" height="150" >
+ </p>
+
+
