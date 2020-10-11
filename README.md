@@ -7,7 +7,7 @@
 
 **Face verification can be thought of as a similarity function that tries to learn whether two images in a high-dimensional space are similar or not**. The loss function could be defined as a rule that states:
 
-* The euclidean distance (or any metric) between two similar images should be minimal 
+* The euclidean distance (or any metric) between two similar images should be minimum
 * The euclidean distance (or any metric) between two dissimilar images should be maximum 
 
 
