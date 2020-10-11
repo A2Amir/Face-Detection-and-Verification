@@ -5,5 +5,9 @@
 1. Classification networks need a long training period due to the addition of new users
 2. Thousands of images (from new and predefined users) have to train classification networks, which is impossible because there is only a small number of sample images available per user.
 
+**Face verification can be thought of as a similarity function that tries to learn whether two images in a high-dimensional space are similar or not**. The loss function could be defined as a rule that states:
+
+* The euclidean distance (or any metric) between two similar images should be minimal 
+* The euclidean distance (or any metric) between two dissimilar images should be maximum 
 
 
