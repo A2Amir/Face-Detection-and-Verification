@@ -17,4 +17,12 @@
 
 # Face Recognition
 
+
+One of the challenging tasks in a unconstrained environment is Face detection and alignment. [Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) was proposed as a deep cascaded multi-task network which leverages a cascaded architecture with three stages of carefully designed deep convolutional networks to predict face and landmark location in a coarse-to-fine manner. 
+  
+  
+  
+  
+
+
 * WIDER FACE: [A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/index.html)
