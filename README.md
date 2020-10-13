@@ -15,4 +15,6 @@
   <img src="/imgs/1.PNG" alt="" width="700" height="150" >
  </p>
 
+# Face Recognition
 
+* WIDER FACE: [A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/index.html)
