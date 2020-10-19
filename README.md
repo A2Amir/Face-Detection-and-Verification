@@ -19,7 +19,8 @@
  
  **In this jupyter notebooks you can learn about:**
  1. Implementing One Shot Learning with Siamese Networks using Keras
- 2. 
+ 2. Implementing Triplet Loss (FaceNet)
+ 3. 
 ## 2. Face detection
 
 One of the challenging tasks in a unconstrained environment is Face detection and alignment. [Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) was proposed as a deep cascaded multi-task network which leverages a cascaded architecture with three stages of carefully designed deep convolutional networks to predict face and landmark location in a coarse-to-fine manner. 
