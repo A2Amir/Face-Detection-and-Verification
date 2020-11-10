@@ -30,16 +30,16 @@ def load_path(dataset_path, mode):
         label = 0
         # List the directory
         try:  # Python 2
-            classes = sorted(os.walk(dataset_path).next()[1])
+             classes = sorted(os.walk(dataset_path).next()[1])
         except Exception:  # Python 3
-            classes = sorted(os.walk(dataset_path).__next__()[1])
+             classes = sorted(os.walk(dataset_path).__next__()[1])
         # List each sub-directory (the classes)
         for c in classes:
             c_dir = os.path.join(dataset_path, c)
             try:  # Python 2
-                walk = os.walk(c_dir).next()
+                 walk = os.walk(c_dir).next()
             except Exception:  # Python 3
-                walk = os.walk(c_dir).__next__()
+                 walk = os.walk(c_dir).__next__()
             # Add each image to the training set
             for sample in walk[2]:
                 # Only keeps jpeg images
@@ -57,7 +57,7 @@ def load_path(dataset_path, mode):
 
 def split_data(imagepaths, labels):
     X_train, X_test, y_train, y_test = train_test_split(imagepaths, labels, 
-                                                    test_size=0.2, 
+                                                    test_size=0.04, 
                                                     random_state=0)
     return X_train, y_train, X_test, y_test
 
@@ -92,8 +92,10 @@ def decode_img(img, size = 160):
 @tf.function
 def augment(image):
     image = tf.image.random_flip_left_right(image)
-    image = tf.image.random_saturation(image, 0.5, 2.0)
-    image = tf.image.random_brightness(image, 0.5)
+    image = tf.image.random_brightness(image, .2)
+    image = tf.image.adjust_brightness(image, 0.1)
+    image = tf.image.adjust_contrast(image, 2)
+
     return image
 
 
