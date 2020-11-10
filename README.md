@@ -18,18 +18,15 @@
  </p>
  
  **In the following jupyter notebooks you can learn:**
- 1. [Implementing One Shot Learning with Siamese Networks using Keras]()
- 2. [Implementing Triplet Loss (FaceNet)]()
- 3. [Implementing Center Loss]()
- 4. [Additive Margin Softmax Implementation]()
+ 1. [Implementing One Shot Learning with Siamese Networks using Keras](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_verification/OneShot_siamese.ipynb)
+ 2. [Implementing Triplet Loss (FaceNet)](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_verification/Triplet%20Loss%20(FaceNet).ipynb)
+ 3. [Implementing Center Loss](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_verification/CenterLoss.ipynb)
+ 4. [Additive Margin Softmax Implementation](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_verification/Additive%20Margin%20Softmax.ipynb)
 ## 2. Face detection
 
-One of the challenging tasks in a unconstrained environment is Face detection and alignment. [Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) was proposed as a deep cascaded multi-task network which leverages a cascaded architecture with three stages of carefully designed deep convolutional networks to predict face and landmark location in a coarse-to-fine manner. in [this jupyter notebook]() I am going to use the Multi-task Cascaded Convolutional Networks to detect face and landmarks.
+One of the challenging tasks in a unconstrained environment is Face detection and alignment. [Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) was proposed as a deep cascaded multi-task network which leverages a cascaded architecture with three stages of carefully designed deep convolutional networks to predict face and landmark location in a coarse-to-fine manner. in [this jupyter notebook](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_detection/Multi-task%20Cascaded%20Convolutional%20Networks%20(MTCNN).ipynb) I am going to use the Multi-task Cascaded Convolutional Networks to detect face and landmarks.
 
   
+# Datasets:
   
-  
-  
-
-
-* WIDER FACE: [A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/index.html)
+  * WIDER FACE: [A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/index.html)
