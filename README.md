@@ -27,6 +27,6 @@
 One of the challenging tasks in a unconstrained environment is Face detection and alignment. [Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) was proposed as a deep cascaded multi-task network which leverages a cascaded architecture with three stages of carefully designed deep convolutional networks to predict face and landmark location in a coarse-to-fine manner. in [this jupyter notebook](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_detection/Multi-task%20Cascaded%20Convolutional%20Networks%20(MTCNN).ipynb) I am going to use the Multi-task Cascaded Convolutional Networks to detect face and landmarks.
 
   
-## 3.Datasets:
+## 3. Datasets:
   
   * WIDER FACE: [A Face Detection Benchmark](http://shuoyang1213.me/WIDERFACE/index.html)
