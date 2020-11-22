@@ -17,7 +17,7 @@
   <img src="/imgs/1.PNG" alt="" width="700" height="150" >
  </p>
  
- **In the following jupyter notebooks you can learn:**
+ **In the following jupyter notebooks you can learn about Face Verification with:**
  1. [Implementing One Shot Learning with Siamese Networks using Keras](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_verification/OneShot_siamese.ipynb)
  2. [Implementing Triplet Loss (FaceNet)](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_verification/Triplet%20Loss%20(FaceNet).ipynb)
  3. [Implementing Center Loss](https://github.com/A2Amir/Face-Recognition-and-Verification/blob/main/Codes/Face_verification/CenterLoss.ipynb)
