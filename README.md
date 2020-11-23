@@ -1,4 +1,4 @@
-# Face Verification and Recognition 
+# Face Verification and Detection 
 
 ## 1. Face verification
  
